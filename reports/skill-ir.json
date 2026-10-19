@@ -1,0 +1,77 @@
+{
+  "schema_version": "2.0.0-qiaomu-lite",
+  "generated_at": "2026-10-19",
+  "package": {
+    "name": "thinking-collaboration",
+    "version": "1.0.0",
+    "owner": "LONG / Lonc2100",
+    "maturity_tier": "scaffold",
+    "lifecycle_stage": null,
+    "upstream_inspiration": null,
+    "upstream_sync": {}
+  },
+  "intent": {
+    "description": "在真实学习、创作、决策和项目协作中，当关键思路未清、证据不足、方法失配、目标或完成口径漂移、影响目标的排除或规则不适配未被说明，或需要练习可迁移思维时，用思维协作适时提醒并推进实际工作。简单明确任务直接做；普通写作、代码、知识整理和成果验收交给对应领域 Skill。",
+    "job_to_be_done": "在真实学习、创作、决策和项目协作中，当关键思路未清、证据不足、方法失配、目标或完成口径漂移、影响目标的排除或规则不适配未被说明，或需要练习可迁移思维时，用思维协作适时提醒并推进实际工作。简单明确任务直接做；普通写作、代码、知识整理和成果验收交给对应领域 Skill。",
+    "target_users": [
+      "Qiaomu operator"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "exclusions": [],
+    "qiaomu_defaults": {}
+  },
+  "triggers": {
+    "should_trigger": [
+      "目标漂移，请用思维协作检查",
+      "反复失败，帮我检查任务前提"
+    ],
+    "should_not_trigger": [
+      "把hello翻译成中文",
+      "今天是星期几"
+    ],
+    "near_neighbor": [
+      "只给这篇文章改错别字"
+    ]
+  },
+  "workflow": {
+    "router_rules": [],
+    "compact_workflow": [],
+    "gate_ladder": [],
+    "output_contract": []
+  },
+  "resources": {
+    "references": [
+      "references\\methods.md"
+    ],
+    "scripts": [],
+    "evals": [
+      "evals\\trigger_cases.json"
+    ],
+    "reports": [
+      "reports\\prior-art-research.md",
+      "reports\\trigger-eval.json"
+    ]
+  },
+  "portability": {
+    "canonical_format": null,
+    "adapter_targets": [
+      "openai",
+      "claude",
+      "generic",
+      "agent-skills-compatible"
+    ],
+    "activation": {},
+    "execution": {},
+    "trust": {},
+    "permissions": {},
+    "degradation": {}
+  },
+  "gates": {},
+  "evidence_boundary": {
+    "generated_reports_are_evidence": true,
+    "planned_work_is_evidence": false,
+    "missing_external_or_human_evidence_label": "missing evidence",
+    "public_claim_policy": "claim only what local validation, install proof, human review, or provider-backed evidence actually supports"
+  }
+}

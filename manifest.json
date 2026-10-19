@@ -1,0 +1,14 @@
+{
+  "name": "thinking-collaboration",
+  "version": "1.0.0",
+  "owner": "LONG / Lonc2100",
+  "updated_at": "2026-10-19",
+  "status": "personal-pilot",
+  "maturity_tier": "scaffold",
+  "context_budget_tier": "personal",
+  "release_gates": [
+    "structure",
+    "source-boundaries",
+    "installation"
+  ]
+}

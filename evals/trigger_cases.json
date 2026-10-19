@@ -1,0 +1,41 @@
+{
+  "positive_concepts": {
+    "task": [
+      "目标",
+      "卡点",
+      "问题",
+      "思路",
+      "任务"
+    ],
+    "evidence": [
+      "证据",
+      "反复",
+      "前提",
+      "假设",
+      "漂移"
+    ],
+    "action": [
+      "思维",
+      "协作",
+      "方法",
+      "检查"
+    ]
+  },
+  "description_required_concepts": [
+    "task",
+    "evidence",
+    "action"
+  ],
+  "recommended_threshold": 0.6,
+  "should_trigger": [
+    "目标漂移，请用思维协作检查",
+    "反复失败，帮我检查任务前提"
+  ],
+  "should_not_trigger": [
+    "把hello翻译成中文",
+    "今天是星期几"
+  ],
+  "near_neighbor": [
+    "只给这篇文章改错别字"
+  ]
+}
