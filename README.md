@@ -13,7 +13,7 @@
 npx skills add Lonc2100/thinking-collaboration --skill thinking-collaboration
 ```
 
-手工安装：下载Release的 `thinking-collaboration-v1.0.0.zip`，解压后把整个 `thinking-collaboration` 文件夹放进客户端的Skills目录；Codex可使用 `~/.codex/skills/`。文件夹内应直接能找到 `SKILL.md`，不是再套一层同名文件夹。重新加载客户端并检查技能是否出现。普通ChatGPT聊天不会因为下载ZIP而自动获得此能力。
+手工安装：下载Release的 `thinking-collaboration-v1.0.1.zip`，解压后把整个 `thinking-collaboration` 文件夹放进客户端的Skills目录；Codex可使用 `~/.codex/skills/`。文件夹内应直接能找到 `SKILL.md`，不是再套一层同名文件夹。重新加载客户端并检查技能是否出现。普通ChatGPT聊天不会因为下载ZIP而自动获得此能力。
 
 ## 你可以直接这样说
 
@@ -23,7 +23,7 @@ npx skills add Lonc2100/thinking-collaboration --skill thinking-collaboration
 
 ## 当前版本与视频
 
-v1.0.0首次公开包保留本机当前执行正文。“目标收敛”在当前版本中重点是结果、范围与完成口径；视频中路线、速度、形式的讲解偏向实现条件。不能把这套方法当成AI擅自换目标的授权。
+v1.0.1首次公开包保留本机当前执行正文。“目标收敛”在当前版本中重点是结果、范围与完成口径；视频中路线、速度、形式的讲解偏向实现条件。不能把这套方法当成AI擅自换目标的授权。
 
 ## 边界
 
